@@ -1,0 +1,148 @@
+body {
+  background-image:url( "assets/background.jpg") ;
+}
+
+#logo img {
+  width: 110px;
+  max-width: 700px;
+  padding-top: 12px; 
+  text-align: center;
+}
+
+#container-card {
+  background-color: rgb(250, 184, 225); 
+  border-radius: 10px; 
+  box-shadow: #aedfe1 10px 10px; 
+  width: 90%;
+}
+
+.col-md-auto {
+  padding-top: 12px; 
+  text-align: center;
+}
+
+#search-icon {
+  width: 60px; 
+  height: 50px; 
+  color: #f4ea8e;
+  fill: currentColor;
+}
+
+#cart-button {
+  text-align: center;
+  color: #f4ea8e; 
+  width: 100px;
+  height: 105px; 
+  fill: currentColor;
+}
+
+@media only screen and (max-width: 600px) {
+  #cart-button {
+    width: 80px;
+    font-size: small;
+  }
+}
+
+#product-detail {
+  border: solid; 
+  border-color:#77d7da; 
+  border-radius: 30px; 
+  border-width: 4px; 
+  width: 110%;
+}
+
+.col {
+  padding-left: 25px;
+  padding-top: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+  #logo img {
+    width: 200px;
+  }
+}
+
+h1 {
+  text-shadow: rgb(242, 139, 139) 2px 2px;
+  color: #f4ea8e
+}
+
+h2 {
+  text-shadow: rgb(242, 139, 139) 2px 2px;
+  color: #77d7da;
+}
+
+h3 {
+  text-shadow: rgb(242, 139, 139) 2px 2px;
+  color: #77d7da;
+}
+
+h4 {
+  text-shadow: rgb(242, 139, 139) 2px 2px;
+  color: #474646;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 450px) {
+  h1, .h1, h2, .h2, h3, .h3 {
+    font-size: 1em;
+  }
+}
+
+label {
+  text-shadow: rgb(242, 139, 139) 2px 2px;
+  color: #474646;
+  font-size: 1.5em;
+}
+
+#rodape-button {
+  width: 55px;
+  height: 45px; 
+  fill: currentColor;
+}
+
+#baseboard {
+  padding: 20px;
+}
+
+.d-block {
+  border: solid; 
+  border-color:#77d7da; 
+  border-radius: 50px; 
+  border-width: 8px; 
+  width: 80%
+}
+
+#form-fields {
+  width: 60%; 
+  text-align: end;
+}
+
+@media only screen and (max-width: 600px) {
+  #form-fields {
+    width: 80%;
+    font-size: small;
+  }
+}
+
+.col-md-6 {
+  border: solid; 
+  border-color:#77d7da; 
+  border-radius: 50px; 
+  display: flex;
+  width: 50%
+}
+
+@media only screen and (max-width: 750px) {
+  .col-md-6 {
+    text-align: end;
+  }
+}
+
+#about-us {
+  text-align: justify;
+}

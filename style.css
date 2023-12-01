@@ -117,6 +117,14 @@ label {
   width: 80%
 }
 
+.d-block-2 {
+  border: solid; 
+  border-color:#77d7da; 
+  border-radius: 50px; 
+  border-width: 8px; 
+  width: 55%;
+}
+
 #form-fields {
   width: 60%; 
   text-align: end;
